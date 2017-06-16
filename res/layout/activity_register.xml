@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title"/>
+    
+    <ImageView android:id="@+id/user_icon"
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/login_icon"
+        android:layout_height="@dimen/login_icon"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/login_icon"/>
+    
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin">
+        
+        <Button android:id="@+id/clear_account"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_clear"/>
+        
+        <EditText android:id="@+id/account"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/account_hint"
+	        android:layout_marginRight="10dp"
+	        android:inputType="phone"
+	        android:lines="1"
+	        android:textSize="15sp"
+	        android:background="@null"
+	        android:textColor="@color/login_text"
+	        android:layout_toLeftOf="@id/clear_account"/>
+                
+    </RelativeLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_line"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="@dimen/login_edit_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"/>
+    
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/login_edit_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin">
+        
+        <Button android:id="@+id/get_verification_code"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/get_verification_code"
+            android:textColor="@color/white"
+        	android:textSize="13sp"
+        	android:background="@drawable/btn_login"/>
+        
+        <EditText android:id="@+id/verification_code"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/verification_code_hint"
+	        android:layout_marginRight="10dp"
+	        android:layout_centerVertical="true"
+	        android:inputType="number"
+	        android:lines="1"
+	        android:textColor="@color/login_text"
+        	android:textSize="15sp"
+        	android:background="@null"
+	        android:layout_toLeftOf="@id/get_verification_code"/>
+        
+        <View android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="@color/common_line"
+	        android:layout_marginTop="10dp"
+	        android:layout_alignRight="@id/verification_code"
+	        android:layout_below="@id/verification_code"/>
+                
+    </RelativeLayout>
+    
+    <EditText android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_margin"
+       	android:layout_marginRight="@dimen/login_margin"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:textColor="@color/login_text"
+       	android:textSize="15sp"
+       	android:background="@null"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_line"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="@dimen/login_edit_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"/>
+    
+    <EditText android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_margin"
+       	android:layout_marginRight="@dimen/login_margin"
+        android:hint="@string/confirm_password_hint"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:textColor="@color/login_text"
+       	android:textSize="15sp"
+       	android:background="@null"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_line"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="@dimen/login_edit_margin"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"/>
+    
+    <Button android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/register"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/login_margin"
+        android:layout_marginRight="@dimen/login_margin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/btn_login"/>
+    
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="60dp"
+	android:orientation="horizontal">
+	
+    <Button
+        android:id="@+id/button0"
+	    android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_weight="1"
+		android:text="vr全景"/>
+    <Button
+        android:id="@+id/button1"
+	    android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_weight="1"
+		android:text="家庭影院"/>
+    <Button
+        android:id="@+id/button2"
+	    android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_weight="1"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="15dp"
+		android:text="VIP"/>
+
+</LinearLayout>
+

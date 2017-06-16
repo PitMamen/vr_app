@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title"/>
+
+    <RelativeLayout
+        android:id="@+id/re_noDataLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/im_nullData"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/nulldata"/>
+
+        <!--   android:layout_centerInParent="true"-->
+
+        <TextView
+            android:id="@+id/tv_nullhistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im_nullData"
+            android:layout_centerHorizontal="true"
+            android:text="暂无历史记录"
+            android:textColor="@color/null_coloer"
+            />
+        <!--android:layout_alignBottom="@+id/im_nullData"-->
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/check_p"
+            android:drawablePadding="5dp"
+            android:text="@string/select_all"
+            android:textColor="@color/common_text"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:padding="10dp"
+            android:text="@string/delete"
+            android:textColor="@color/common_text"
+            android:textSize="15sp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

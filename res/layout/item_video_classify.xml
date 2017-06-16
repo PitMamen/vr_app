@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="150dp">-->
+
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/iv_image"
+        android:src="@drawable/video_default"
+        android:layout_width="140dp"
+        android:layout_height="120dp"/>
+    <TextView
+        android:layout_marginTop="0dp"
+        android:id="@+id/tv_videoName"
+        android:text="videoName"
+        android:layout_marginLeft="8dp"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_image"/>
+
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="40dp">-->
+        <!--<View-->
+            <!--android:layout_width="2dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginTop="9dp"-->
+            <!--android:layout_marginBottom="9dp"-->
+            <!--android:background="#0182C4"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/video_classify_txt"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:textColor="@color/common_text"-->
+            <!--android:text="@string/select"-->
+            <!--android:textSize="@dimen/title_size"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="end"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/more_btn"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:background="@drawable/more_d"-->
+            <!--android:clickable="true"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_more"-->
+            <!--android:layout_toLeftOf="@+id/more_btn"-->
+            <!--android:textSize="15sp"-->
+            <!--android:text="更多"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+
+    <!--</RelativeLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_weight="5">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:orientation="horizontal">-->
+            <!--<com.mygt.vrapp.view.VideoItemView-->
+                <!--android:id="@+id/id_item0"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:clickable="true"/>-->
+
+            <!--<com.mygt.vrapp.view.VideoItemView-->
+                <!--android:id="@+id/id_item1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:clickable="true"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:orientation="horizontal">-->
+            <!--<com.mygt.vrapp.view.VideoItemView-->
+                <!--android:id="@+id/id_item2"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:clickable="true"/>-->
+
+            <!--<com.mygt.vrapp.view.VideoItemView-->
+                <!--android:id="@+id/id_item3"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:clickable="true"/>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

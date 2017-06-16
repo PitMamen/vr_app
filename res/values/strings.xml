@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VRApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="select">用户推荐</string>
+    <string name="video">影视</string>
+    <string name="game">游戏</string>
+    <string name="user">我的</string>
+    <string name="live">直播</string>
+
+    <!-- 注册、登录 -->
+    <string name="login_info">注册/登录</string>
+    <string name="login">快速登录</string>
+    <string name="register">免费注册</string>
+    <string name="lost_password">忘记密码</string>
+    <string name="account_hint">输入手机号</string>
+    <string name="password_hint">输入密码</string>
+    <string name="confirm_password_hint">请确认密码</string>
+    <string name="verification_code_hint">输入验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    
+    <string name="history">观看历史</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="movies">本地视频</string>
+    <string name="my_down">我的下载</string>
+    
+    <string name="down">下载</string>
+    
+    <string name="delete">删除</string>
+    <string name="pause">已暂停</string>
+    <string name="start">正在下载</string>
+    <string name="select_all">全选</string>
+    <string name="no_select_all">取消全选</string>
+    <string name="cancel">取消</string>
+    <string name="determine">确定</string>
+    <string name="game_detail">游戏详情</string>
+    
+    <string name="play">播放</string>
+    <string name="collection">收藏</string>
+    
+    <string-array name="game_list">
+        <item>场景体验</item>
+        <item>恐怖冒险</item>
+        <item>动作射击</item>
+        <!--<item>精选游戏</item>-->
+        <!--<item>场景体验</item>-->
+        <!--<item>恐怖冒险</item>-->
+        <!--<item>动作射击</item>-->
+        <!--<item>冒险解密</item>-->
+        <!--<item>动作射击</item>-->
+        <!--<item>冒险解密</item>-->
+    </string-array>
+    
+    <string-array name="select_list">
+        <item>精选热门</item>
+        <item>热播视频</item>
+        <item>美女私房</item>
+        <item>全民疯玩</item>
+    </string-array>
+    
+    <string name="video_detail">视频详情</string>
+    <string name="video_summary">视频介绍</string>
+    <string name="video_updatetime">上传时间</string>
+    <string name="video_recommand">相关推荐:</string>
+    
+    <string name="save">保存</string>
+    
+    <string name="news_remind">新消息提醒</string>
+    <string name="setting">设置</string>
+    <string name="question">问题反馈</string>
+    <string name="send">提交</string>
+    
+    <string name="clear_all">清空</string>
+    <string name="search">搜索</string>
+    <string name="search_history">搜索历史</string>
+    
+</resources>

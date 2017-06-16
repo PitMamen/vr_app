@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="search_delete">25dp</dimen>
+    <dimen name="main_tab_drawable">30dp</dimen>
+    <dimen name="user_fg_drawable">30dp</dimen>
+    <dimen name="pause_drawable">30dp</dimen>
+    <dimen name="selete_all_drawable">25dp</dimen>
+    <dimen name="video_detail_drawable">30dp</dimen>
+    <dimen name="video_detail_drawable_left">40dp</dimen>
+    <dimen name="login_drawable">30dp</dimen>
+    
+    <dimen name="login_edit_margin">30dp</dimen>
+    
+    <dimen name="login_icon">70dp</dimen>
+    <dimen name="common_title_button">30dp</dimen>
+    <dimen name="login_margin">40dp</dimen>
+    <dimen name="title_size">15sp</dimen>
+	<dimen name="bottom_size">12sp</dimen>	
+</resources>

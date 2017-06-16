@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/adapter_body_icon"
+        android:src="@drawable/video_default"
+        android:layout_width="180dp"
+        android:layout_height="120dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/adapter_body_name"
+            android:text="videoName"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_toRightOf="@+id/adapter_body_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="1dp"
+            android:layout_height="13dp"
+            android:background="@color/line"/>
+
+        <TextView
+            android:id="@+id/tv_size"
+            android:text="aaa"
+            android:layout_centerVertical="true"
+            android:textSize="10sp"
+            android:paddingLeft="20dp"
+            android:layout_toRightOf="@+id/adapter_body_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_recording"
+        android:textSize="10sp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

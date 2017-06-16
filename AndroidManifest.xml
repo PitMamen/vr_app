@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mygt.vrapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    
+    <!-- 使用opengles 2.0 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 允许访问存储卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+		<meta-data android:name="com.mygt.vrapp.api.GlideCacheModule" android:value="GlideModule"/>
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mygt.vrapp.MainActivity"
+            android:theme="@style/Theme.PageIndicatorDefaults"
+            android:screenOrientation="portrait"/>
+		<activity android:name=".login.LoginActivity"
+		    android:screenOrientation="portrait"/>
+		<activity android:name=".login.RegisterActivity"
+		    android:screenOrientation="portrait"/>
+		<activity android:name="com.mygt.vrapp.ActivityDetailVideo" 
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="com.mygt.vrapp.ActivityMore" 
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".user.DownActivity" 
+		    android:screenOrientation="portrait"/>
+		<activity android:name=".game.GameDetailActivity" 
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".user.CollectionActivity" 
+		    android:screenOrientation="portrait"/>
+		<activity android:name=".user.LocalMoviesActivity"
+		    android:screenOrientation="portrait" />
+		<activity android:name=".user.HistoryActivity" 
+		    android:screenOrientation="portrait"/>
+		<activity android:name=".setting.SettingActivity" 
+		    android:screenOrientation="portrait"/>
+		<activity android:name=".setting.QuestionActivity" 
+		    android:screenOrientation="portrait"/>
+		<activity android:name=".search.SearchActivity" 
+		    android:screenOrientation="portrait"/>
+		<activity
+            android:name=".player.PlayerActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden|navigation"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".player.PlayerFragmentAcivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden|navigation"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+    </application>
+
+</manifest>

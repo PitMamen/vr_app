@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"  
+	android:layout_height="match_parent"  
+	android:orientation="vertical" >  
+	 
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:orientation="horizontal"
+        android:background="#042E47">
+        
+        <com.mygt.vrapp.view.CircleImageView
+            android:id="@+id/icon"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="30dp"
+            app:border_width="0dp"
+            app:border_color="@color/transparent"
+            android:src="@drawable/user_icon"/>
+        
+        <Button android:id="@+id/login"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="30dp"
+	        android:layout_gravity="center_vertical"
+	        android:background="@drawable/btn_blue"
+	        android:textSize="13sp"
+	        android:textColor="@color/white"
+	        android:text="@string/login_info"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        
+        <Button android:id="@+id/history"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textSize="12sp"
+	        android:background="@null"
+	        android:drawablePadding="10dp"
+	        android:textColor="@color/common_text"
+	        android:text="@string/history"/>
+        
+        <Button android:id="@+id/collection"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textSize="12sp"
+	        android:background="@null"
+	        android:drawablePadding="10dp"
+	        android:textColor="@color/common_text"
+	        android:text="@string/my_collection"/>
+        
+        <Button android:id="@+id/down"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textSize="12sp"
+	        android:background="@null"
+	        android:drawablePadding="10dp"
+	        android:textColor="@color/common_text"
+	        android:text="@string/my_down"/>
+        
+        <Button android:id="@+id/movies"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textSize="12sp"
+	        android:background="@null"
+	        android:drawablePadding="10dp"
+	        android:textColor="@color/common_text"
+	        android:text="@string/movies"/>
+        
+    </LinearLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/common_line"/>
+    
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        
+        <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="@color/common_text"
+	        android:text="我的VIP"/>
+        
+        <Button 
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_gravity="right|center_vertical"
+	        android:background="@drawable/more_d"/>
+        
+    </FrameLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_line"/>
+    
+    <FrameLayout android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_common_item">
+        
+        <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="@color/common_text"
+	        android:text="我的设置"/>
+        
+        <Button 
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_gravity="right|center_vertical"
+	        android:background="@drawable/more_d"/>
+        
+    </FrameLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_line"/>
+    
+    <FrameLayout android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_common_item">
+        
+        <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="@color/common_text"
+	        android:text="@string/question"/>
+        
+        <Button 
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_gravity="right|center_vertical"
+	        android:background="@drawable/more_d"/>
+        
+    </FrameLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_line"/>
+  
+</LinearLayout>  
+

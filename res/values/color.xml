@@ -1,0 +1,26 @@
+<resources >
+    <color name="lightseagreen">#20b2aa</color><!--亮海蓝色 --> 
+    <color name="black">#5d6c78</color><!-- 黑色 -->
+    <color name="white">#ffffff</color><!-- 白色 -->
+    <color name="line">#c6d2da</color><!-- 线条颜色 -->
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#D3D3D3</color>
+    
+    <color name="title_text">#017cc0</color>
+    <color name="bottom_text">#566672</color>
+    <color name="bottom_focus_text">#1b3a84</color>
+    <color name="background_color">#233145</color>
+    
+    
+    <color name="common_line">#E7EBEE</color>
+    <color name="common_text">#566672</color>
+    <color name="delete_dialog">#C6D2DA</color>
+    
+    <color name="login_line">#c6d2da</color>
+    <color name="login_text">#5d6c78</color>
+    
+    <color name="vpi__background_holo_dark">#000000</color>
+    <color name="vpi__background_holo_light">#f3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="null_coloer">#CCCCCC</color>
+</resources>

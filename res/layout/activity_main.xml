@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:id="@+id/frame_gone"
+		android:visibility="gone"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<ImageView
+			android:id="@+id/iv_netAviable"
+			android:src="@drawable/nulldata"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:id="@+id/tv_netNotAviable"
+			android:text="网络不可用，请检查您的网络！"
+			android:layout_gravity="center"
+			android:paddingTop="10dp"
+			android:textColor="@color/null_coloer"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+
+	</FrameLayout>
+   
+    <include android:id="@+id/title"
+        layout="@layout/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+		android:layout_weight="4.0"/>
+
+    <include layout="@layout/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:visibility="gone">
+
+		<ImageView
+		   	android:id="@+id/loading_icon"
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:src="@drawable/main_default" />
+
+    </RelativeLayout>
+	<!-- <fragment
+		android:name="com.mygt.vrapp.SelectFragment"
+		android:id="@+id/selectfragment"
+		android:layout_height="0dp"
+		android:layout_weight="1.0"
+		android:layout_width="fill_parent"/>
+	<fragment
+		android:name="com.mygt.vrapp.VideoFragment"
+		android:id="@+id/videofragment"
+		android:layout_height="0dp"
+		android:layout_weight="1.0"
+		android:layout_width="fill_parent"/>
+	<fragment
+		android:name="com.mygt.vrapp.GameFragment"
+		android:id="@+id/gamefragment"
+		android:layout_height="0dp"
+		android:layout_weight="1.0"
+		android:layout_width="fill_parent"/>
+	<fragment
+		android:name="com.mygt.vrapp.UserFragment"
+		android:id="@+id/userfragment"
+		android:layout_height="0dp"
+		android:layout_weight="1.0"
+		android:layout_width="fill_parent"/> -->
+	
+</LinearLayout>
+

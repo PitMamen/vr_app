@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="2dp"
+    android:background="@drawable/menu_bg">
+    
+	<LinearLayout android:id="@+id/history"
+	    style="@style/menu_item">
+	    
+	    <ImageView android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:background="@drawable/history_n"/>
+	    
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:textSize="13sp"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/history"/>
+	    
+	</LinearLayout>
+	
+	<View android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/common_line"/>
+    
+	<LinearLayout android:id="@+id/collection"
+	    style="@style/menu_item">
+	    
+	    <ImageView android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:background="@drawable/collection_z"/>
+	    
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:textSize="13sp"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/my_collection"/>
+	    
+	</LinearLayout>
+	
+	<View android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/common_line"/>
+	
+	<LinearLayout android:id="@+id/down"
+	    style="@style/menu_item">
+	    
+	    <ImageView android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:background="@drawable/down_n"/>
+	    
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:textSize="13sp"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/my_down"/>
+	    
+	</LinearLayout>
+	
+	<View android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/common_line"/>
+	
+	<LinearLayout android:id="@+id/movies"
+	    style="@style/menu_item">
+	    
+	    <ImageView android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:background="@drawable/local_video_n"/>
+	    
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:textSize="13sp"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/movies"/>
+	    
+	</LinearLayout>
+    
+</LinearLayout>

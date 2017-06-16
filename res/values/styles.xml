@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    	<item name="android:windowNoTitle">true</item> 
+    	<item name="android:textColorSecondary">@color/common_text</item>
+    </style>
+    
+    <style name="FullHeightDialog" parent="android:style/Theme.Holo.Light.Dialog.NoActionBar">
+	</style>
+	
+    <style name="SplashTheme" parent="Theme.PageIndicatorDefaults">
+        <item name="android:background">@drawable/background_splash</item>
+	</style>
+    
+    <style name="Linearlayout_Style">
+		<item name="android:orientation">vertical</item>       
+		<item name="android:gravity">center</item>
+		<item name="android:clickable">true</item>
+		<item name="android:onClick">LayoutOnclick</item>
+ 	</style>
+ 	<style name="RadioButton_Style">
+		<item name="android:layout_gravity">center</item>       
+		<item name="android:gravity">center</item>
+		<item name="android:button">@null</item>
+		<item name="android:checked">true</item>
+
+ 	</style>
+ 	
+ 	<style name="menu_item">
+		<item name="android:layout_gravity">center_vertical</item>       
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:paddingLeft">15dp</item>       
+		<item name="android:paddingRight">15dp</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+		<item name="android:background">@drawable/btn_common_item</item>
+
+ 	</style>
+
+</resources>

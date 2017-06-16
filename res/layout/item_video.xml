@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/video_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_weight="4"/>
+   
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@id/video_bg" 
+        android:layout_weight="1"
+        android:text="色即是空"
+        android:textColor="@color/common_text"  
+        android:scaleType="fitXY"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"   
+        android:singleLine="true"
+        android:ellipsize="end"/>
+         
+</LinearLayout>      	

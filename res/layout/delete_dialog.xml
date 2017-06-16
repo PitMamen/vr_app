@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否删除所选内容？"
+        android:paddingTop ="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="15sp"
+        android:gravity="center"/>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/delete_dialog"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <Button android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:paddingTop ="15dp"
+        	android:paddingBottom="15dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:background="@drawable/btn_delete_dialog"/>
+        
+        <View android:layout_width="1dp"
+	        android:layout_height="match_parent"
+	        android:background="@color/delete_dialog"/>
+        
+         <Button android:id="@+id/determine"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/determine"
+            android:paddingTop ="15dp"
+        	android:paddingBottom="15dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:background="@drawable/btn_delete_dialog"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
